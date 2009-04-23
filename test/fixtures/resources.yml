@@ -1,0 +1,9 @@
+bob:
+  id: 1
+  first_name: Bob
+  last_name: Resource
+
+dave:
+  id: 2
+  first_name: Dave
+  last_name: Resource

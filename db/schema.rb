@@ -11,6 +11,35 @@
 
 ActiveRecord::Schema.define(:version => 20090422200109) do
 
+  create_table "date_dimensions", :force => true do |t|
+    t.integer  "year"
+    t.integer  "month"
+    t.integer  "day"
+    t.string   "holiday"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "projects", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "resource_allocations", :force => true do |t|
+    t.integer  "resource_id"
+    t.integer  "date_dimension_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "resources", :force => true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "roles", :force => true do |t|
     t.string "name"
   end
