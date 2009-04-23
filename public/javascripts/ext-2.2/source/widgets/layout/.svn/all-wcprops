@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/978/Patriot/branches/label_ui/public/javascripts/ext-2.2/source/widgets/layout
+END
+TableLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/978/Patriot/branches/label_ui/public/javascripts/ext-2.2/source/widgets/layout/TableLayout.js
+END
+CardLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/978/Patriot/branches/label_ui/public/javascripts/ext-2.2/source/widgets/layout/CardLayout.js
+END
+AnchorLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/978/Patriot/branches/label_ui/public/javascripts/ext-2.2/source/widgets/layout/AnchorLayout.js
+END
+BorderLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/978/Patriot/branches/label_ui/public/javascripts/ext-2.2/source/widgets/layout/BorderLayout.js
+END
+ColumnLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/978/Patriot/branches/label_ui/public/javascripts/ext-2.2/source/widgets/layout/ColumnLayout.js
+END
+AbsoluteLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/978/Patriot/branches/label_ui/public/javascripts/ext-2.2/source/widgets/layout/AbsoluteLayout.js
+END
+AccordionLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/978/Patriot/branches/label_ui/public/javascripts/ext-2.2/source/widgets/layout/AccordionLayout.js
+END
+ContainerLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/978/Patriot/branches/label_ui/public/javascripts/ext-2.2/source/widgets/layout/ContainerLayout.js
+END
+FitLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/978/Patriot/branches/label_ui/public/javascripts/ext-2.2/source/widgets/layout/FitLayout.js
+END
+FormLayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/978/Patriot/branches/label_ui/public/javascripts/ext-2.2/source/widgets/layout/FormLayout.js
+END
