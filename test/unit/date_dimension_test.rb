@@ -1,8 +1,9 @@
-require 'test_helper'
-
+require File.dirname(__FILE__) + '/../test_helper'
+require 'pp'
 class DateDimensionTest < ActiveSupport::TestCase
-  # Replace this with your real tests.
-  test "the truth" do
-    assert true
+  test "the count" do
+    assert_equal(1827,DateDimension.count)
   end
+  
 end
+
