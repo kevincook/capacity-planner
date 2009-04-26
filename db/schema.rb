@@ -16,12 +16,16 @@ ActiveRecord::Schema.define(:version => 20090422200109) do
     t.integer  "month"
     t.integer  "day"
     t.string   "holiday"
+    t.string   "day_str"
+    t.string   "month_str"
+    t.datetime "datetime"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "projects", :force => true do |t|
     t.string   "name"
+    t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -29,9 +33,14 @@ ActiveRecord::Schema.define(:version => 20090422200109) do
   create_table "resource_allocations", :force => true do |t|
     t.integer  "resource_id"
     t.integer  "date_dimension_id"
+    t.integer  "project_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "resource_allocations", ["date_dimension_id"], :name => "index_resource_allocations_on_date_dimension_id"
+  add_index "resource_allocations", ["project_id"], :name => "index_resource_allocations_on_project_id"
+  add_index "resource_allocations", ["resource_id"], :name => "index_resource_allocations_on_resource_id"
 
   create_table "resources", :force => true do |t|
     t.string   "first_name"

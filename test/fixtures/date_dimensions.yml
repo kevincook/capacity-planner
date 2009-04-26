@@ -1,11 +1,14 @@
-<% start_day = DateTime.parse("01/01/2009")
-  puts "size: #{(start_day..start_day.years_since(5)).to_a.size}"
+<% 
+  start_day = DateTime.parse("01/01/2009")
+  end_day   = DateTime.parse("03/31/2009")
   idx = 0
-  (start_day..start_day.years_since(5)).to_a.each do |day| 
+  (start_day..end_day).to_a.each do |day| 
     idx += 1 %>
 f<%= idx %>:
   year: <%= day.year %>
   month: <%= day.month %>
   day: <%= day.day %>
-<% puts idx %>
+  day_str: <%= day.strftime("%A") %>
+  month_str: <%= day.strftime("%B") %>
+  datetime: <%= day %>
 <% end %>
