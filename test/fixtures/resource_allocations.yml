@@ -1,0 +1,4 @@
+one:
+  project: alpha
+  resource: bob
+  date_dimension: f1

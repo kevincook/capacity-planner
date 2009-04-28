@@ -1,0 +1,12 @@
+<h1>Editing resource_allocation</h1>
+
+<% form_for(@resource_allocation) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @resource_allocation %> |
+<%= link_to 'Back', resource_allocations_path %>
