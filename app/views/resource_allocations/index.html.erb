@@ -1,0 +1,18 @@
+<h1>Listing resource_allocations</h1>
+
+<table>
+  <tr>
+  </tr>
+
+<% @resource_allocations.each do |resource_allocation| %>
+  <tr>
+    <td><%= link_to 'Show', resource_allocation %></td>
+    <td><%= link_to 'Edit', edit_resource_allocation_path(resource_allocation) %></td>
+    <td><%= link_to 'Destroy', resource_allocation, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New resource_allocation', new_resource_allocation_path %>
