@@ -4,8 +4,10 @@
 		<th>Login</th>
 		<th>Name</th>
 		<th>Email</th>
+		<th>Actions</th>
 	</thead>
 	<tbody>
 		<%= render :partial => @users %>		
 	</tbody>
 </table>
+<%= link_to "New user", new_user_path %>
